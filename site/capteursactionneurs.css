@@ -1,0 +1,60 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+
+th /* Tous les titres*/
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+	text-align: center
+}
+
+body{
+    font-family: Arial;
+}
+header{
+background-color: #2E8FF5;
+    height:100px;
+    border-radius: 10px;
+}
+ul{
+    position:relative;
+    top:25px;
+    display: flex;
+}
+li{
+    list-style:none;
+    background-color:#C0F2FF; 
+    padding:15px; margin-right:20px; 
+    border-radius: 10px;
+}
+img{
+    float:left;
+    width:100px;
+}
+
+.flotante{
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+footer{
+    position:relative;
+    bottom:5px;
+    background-color: #2E8FF5;
+    border-radius:10px;
+    width:99%;
+    color:white;
+}
+.commande{
+	background-color: #2E8FF5;
+}
